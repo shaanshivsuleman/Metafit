@@ -1,0 +1,95 @@
+/*Fold framework*/
+
+@charset "UTF-8";
+
+/*Text-selection/highlight color*/
+::selection {
+	background: #bd9e62;
+    color: #fff;/* Safari */
+	}
+::-moz-selection {
+	background: #bd9e62;
+    color: #fff;/* Firefox */
+}
+
+.container-middle {
+  padding-right: 40%;
+  padding-left: 40%;
+  padding-top: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+thead {
+    font-weight: 800;   
+}
+
+.underline {
+    text-decoration: underline;   
+}
+
+.bold {
+    font-weight: 800;   
+}
+
+.normal {
+    font-weight: 500;   
+}
+
+.vertical-text {
+	transform: rotate(-90deg);
+}
+
+.vertical-text {
+	float: left;
+}
+
+.vertical-text-two {
+	transform: rotate(90deg);
+}
+
+.vertical-text-two {
+	float: left;
+}
+
+.container-out {
+  padding-right: 35%;
+  padding-left: 35%;
+  padding-top: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.global-wrapper {
+    position: relative;
+}
+
+.spaced {
+    letter-spacing: 10px;   
+}
+
+.table-width {
+    width: 20%;   
+}
+
+.wrapper {
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    margin-top: 2%;
+}
+
+.custom-checkbox {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;   
+}
